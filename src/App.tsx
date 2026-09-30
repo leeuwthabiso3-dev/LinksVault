@@ -45,6 +45,7 @@ function renderBookmarks(): void {
     bookmarkElement.className = "bookmark";
 
     bookmarkElement.innerHTML = `
+    <div class="bookmark-card">
       <div>
         <strong>${escapeHtml(bookmark.title)}</strong>
         <br />
@@ -65,6 +66,7 @@ function renderBookmarks(): void {
         <button data-action="delete" data-id="${bookmark.id}">
           Delete
         </button>
+      </div>
       </div>
     `;
 
