@@ -80,12 +80,12 @@ button:hover {
 }
 
 .bookmark-card {
+  margin: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
   padding: 18px;
-  background: white;
+  background: rgb(234, 169, 169);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
 }
